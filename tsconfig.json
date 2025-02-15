@@ -15,10 +15,13 @@
       "dom"
     ],
     "baseUrl": "./",
+    "paths": {
+      "obd-utils": ["src/index"]
+    },
     "typeRoots": [
       "node_modules/@types"
     ],
-    "strict": false,
+    "strict": false
   },
   "exclude": ["./lib", "./scripts", "./bin"]
 }
